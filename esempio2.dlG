@@ -1,0 +1,26 @@
+/*
+ * Resource file created by dlgedit version 0.0
+ * Giovanni Iachello 1995
+ * esempio2.dlG compiled on Wed Jul 19 03:08:40 1995
+ */
+DLGTEMPLATE
+{
+	DIALOG "Inserire i dati richiesti", , 10, 10, 200, 160,
+		WS_VISIBLE, FCF_TITLEBAR |FCF_SYSMENU |FCF_DLGBORDER 
+	{
+		PUSHBUTTON "~Aiuto", -1, 152, 4, 34, 17, WS_VISIBLE | BS_PUSHBUTTON | BS_HELP 
+		PUSHBUTTON "~Annulla", -1, 152, 28, 35, 17, WS_VISIBLE | BS_PUSHBUTTON 
+		PUSHBUTTON "~OK", D1_PB_OK, 152, 52, 36, 19, WS_VISIBLE | BS_PUSHBUTTON 
+		TEXT "Interessi", -1, 84, 71, 57, 9, WS_VISIBLE | SS_TEXT 
+		LISTBOX "", D1_LB_INTERESSI, 83, 6, 58, 72, WS_VISIBLE 
+		AUTORADIOBUTTON "Altro", -1, 12, 21, 57, 10, WS_VISIBLE 
+		AUTORADIOBUTTON "Impiegato", -1, 11, 38, 57, 8, WS_VISIBLE 
+		AUTORADIOBUTTON "Studente", -1, 12, 53, 57, 9, WS_VISIBLE 
+		TEXT "Professione", -1, 7, 72, 64, 9, WS_VISIBLE | SS_TEXT 
+		ENTRYFIELD "", D1_COGNOME, 58, 101, 124, 12, WS_VISIBLE | ES_MARGIN 
+		ENTRYFIELD "", D1_NOME, 56, 120, 126, 12, WS_VISIBLE | ES_MARGIN 
+		TEXT "Cognome", -1, 4, 102, 48, 12, WS_VISIBLE | SS_TEXT 
+		TEXT "Nome", -1, 4, 121, 48, 13, WS_VISIBLE | SS_TEXT 
+
+	}
+}

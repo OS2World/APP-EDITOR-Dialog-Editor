@@ -1,0 +1,17 @@
+/*
+ * Resource file created by dlgedit version 0.0
+ * Giovanni Iachello 1995
+ * D:\emx\dlgedit\test.DLG compiled on Tue Oct 03 18:06:01 1995
+ */
+DLGTEMPLATE  
+{
+	DIALOG "",  , 10, 10, 100, 100,
+		WS_VISIBLE, FCF_DLGBORDER 
+	{
+		PUSHBUTTON "", -1, 52, 5, 38, 14, WS_VISIBLE | BS_PUSHBUTTON 
+		PUSHBUTTON "", -1, 4, 5, 36, 16, WS_VISIBLE | BS_PUSHBUTTON 
+		ENTRYFIELD "", -1, 4, 52, 86, 13, WS_VISIBLE | ES_MARGIN 
+		TEXT "Ciao come va? Devi scrivere il ", -1, 4, 78, 86, 10, WS_VISIBLE | SS_TEXT 
+
+	}
+}

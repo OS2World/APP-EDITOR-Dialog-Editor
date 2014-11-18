@@ -1,0 +1,5 @@
+NAME dlgedit WINDOWAPI
+DESCRIPTION 'Dialog Editor 1994 by G.Iachello'
+STACKSIZE 0x10000
+
+

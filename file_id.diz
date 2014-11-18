@@ -1,0 +1,4 @@
+Dialog Editor - uses the PM++
+class library. Compiles with
+emx 0.9a
+

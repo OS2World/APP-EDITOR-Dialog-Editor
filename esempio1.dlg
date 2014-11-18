@@ -1,0 +1,19 @@
+/*
+ * Resource file created by dlgedit version 0.0
+ * Giovanni Iachello 1995
+ * D:\emx\dlgedit\esempio1.DLG compiled on Mon Oct 16 01:44:01 1995
+ */
+DLGTEMPLATE DLG_ESEMPIO1 
+{
+	DIALOG "Inserisci nome", DLG_ESEMPIO1 , 10, 10, 128, 118,
+		WS_VISIBLE, FCF_TITLEBAR | FCF_SYSMENU | FCF_DLGBORDER 
+	{
+		TEXT "Interessi", -1, 13, 40, 70, 9, WS_VISIBLE | SS_TEXT 
+		TEXT "Cognome", -1, 12, 68, 73, 8, WS_VISIBLE | SS_TEXT 
+		TEXT "Nome", -1, 12, 90, 75, 8, WS_VISIBLE | SS_TEXT 
+		LISTBOX "", D1_LB_INTERESSI, 7, 8, 100, 32, WS_VISIBLE 
+		ENTRYFIELD "", D1_COGNOME, 8, 56, 100, 8, WS_VISIBLE | ES_MARGIN 
+		ENTRYFIELD "", D1_NOME, 8, 80, 100, 8, WS_VISIBLE | ES_MARGIN 
+
+	}
+}
